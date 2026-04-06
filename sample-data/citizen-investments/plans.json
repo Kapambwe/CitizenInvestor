@@ -1,0 +1,41 @@
+[
+  {
+    "id": "safe-reserve",
+    "title": "Safe Reserve",
+    "summary": "Capital preservation plan built on cash and money-market pools.",
+    "riskLabel": "Low",
+    "recommendedFor": "Emergency funds and short goals",
+    "contributionHint": "From ZMW 20 per week",
+    "highlights": [
+      "Instant top-ups and flexible withdrawals",
+      "Stable value focus",
+      "Auto-sweep to wallet"
+    ]
+  },
+  {
+    "id": "steady-income",
+    "title": "Steady Income",
+    "summary": "Infrastructure and bond-backed income with verified cash flows.",
+    "riskLabel": "Low to Medium",
+    "recommendedFor": "School fees and reliable payouts",
+    "contributionHint": "From ZMW 50 per week",
+    "highlights": [
+      "Payouts to wallet",
+      "Proof of work on every project",
+      "Risk guardrails enabled"
+    ]
+  },
+  {
+    "id": "growth-impact",
+    "title": "Growth and Impact",
+    "summary": "Diversified into SME funds, municipal projects, and production units.",
+    "riskLabel": "Medium",
+    "recommendedFor": "Long-term wealth building",
+    "contributionHint": "From ZMW 80 per week",
+    "highlights": [
+      "Auto rebalancing",
+      "Goal progress tracking",
+      "Inflation-aware targets"
+    ]
+  }
+]

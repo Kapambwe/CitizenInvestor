@@ -1,0 +1,38 @@
+[
+  {
+    "id": "proj-road-corridor",
+    "category": "Roads and Transport",
+    "title": "Phase 3 corridor upgrades",
+    "summary": "Backed by verified lane-kilometer completion units and availability payments.",
+    "progressPercent": 78,
+    "verification": "Independent engineer sign-off and GPS logs",
+    "cashFlowSource": "Availability payments"
+  },
+  {
+    "id": "proj-solar-grid",
+    "category": "Energy",
+    "title": "Solar delivery units",
+    "summary": "Returns linked to electricity delivered to the grid and confirmed by SCADA logs.",
+    "progressPercent": 64,
+    "verification": "Grid interconnection approval and SCADA data",
+    "cashFlowSource": "PPA payments"
+  },
+  {
+    "id": "proj-water-access",
+    "category": "Water and Sanitation",
+    "title": "Clean water access",
+    "summary": "Cash flow from verified meters and household connection data.",
+    "progressPercent": 52,
+    "verification": "Lab-tested quality reports and meter readings",
+    "cashFlowSource": "Water tariffs"
+  },
+  {
+    "id": "proj-sme-output",
+    "category": "SME Growth",
+    "title": "Manufacturing output pools",
+    "summary": "Invest in verified SME revenue streams across manufacturing and logistics.",
+    "progressPercent": 87,
+    "verification": "Invoice settlements and delivery confirmations",
+    "cashFlowSource": "Revenue-linked payouts"
+  }
+]

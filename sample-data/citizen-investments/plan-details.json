@@ -1,0 +1,213 @@
+[
+  {
+    "id": "safe-reserve",
+    "title": "Safe Reserve",
+    "summary": "Capital preservation plan built on cash and money-market pools.",
+    "contribution": "ZMW 50 per week",
+    "horizon": "6 to 18 months",
+    "allocations": [
+      {
+        "instrumentName": "Citizen Cash Reserve",
+        "instrumentType": "Money Market",
+        "allocationPercent": 70,
+        "cashFlowSource": "Treasury bill interest",
+        "proof": {
+          "verifiedBy": "Custodian bank",
+          "evidence": "Daily NAV and custody confirmations",
+          "lastUpdated": "2026-01-20",
+          "proofHistory": [
+            {
+              "timestamp": "2026-01-20",
+              "verifier": "Custodian bank",
+              "evidence": "Daily NAV confirmation"
+            },
+            {
+              "timestamp": "2026-01-17",
+              "verifier": "Fund administrator",
+              "evidence": "Weekly liquidity reconciliation"
+            }
+          ]
+        }
+      },
+      {
+        "instrumentName": "Liquidity Buffer Pool",
+        "instrumentType": "Cash Buffer",
+        "allocationPercent": 30,
+        "cashFlowSource": "Bank deposits",
+        "proof": {
+          "verifiedBy": "Independent auditor",
+          "evidence": "Monthly cash balance verification",
+          "lastUpdated": "2026-01-18",
+          "proofHistory": [
+            {
+              "timestamp": "2026-01-18",
+              "verifier": "Independent auditor",
+              "evidence": "Monthly cash balance verification"
+            },
+            {
+              "timestamp": "2026-01-12",
+              "verifier": "Treasury desk",
+              "evidence": "Deposit confirmations"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "steady-income",
+    "title": "Steady Income",
+    "summary": "Infrastructure and bond-backed income with verified cash flows.",
+    "contribution": "ZMW 80 per week",
+    "horizon": "2 to 5 years",
+    "allocations": [
+      {
+        "instrumentName": "Municipal Revenue Bond",
+        "instrumentType": "Bond",
+        "allocationPercent": 45,
+        "cashFlowSource": "Water tariff receipts",
+        "proof": {
+          "verifiedBy": "City finance office",
+          "evidence": "Ring-fenced revenue account statements",
+          "lastUpdated": "2026-01-15",
+          "proofHistory": [
+            {
+              "timestamp": "2026-01-15",
+              "verifier": "City finance office",
+              "evidence": "Ring-fenced revenue account statement"
+            },
+            {
+              "timestamp": "2026-01-10",
+              "verifier": "Utility operator",
+              "evidence": "Tariff collections summary"
+            }
+          ]
+        }
+      },
+      {
+        "instrumentName": "PPP Availability Payment Bond",
+        "instrumentType": "Infrastructure",
+        "allocationPercent": 35,
+        "cashFlowSource": "Availability payments",
+        "proof": {
+          "verifiedBy": "Independent engineer",
+          "evidence": "Milestone certificates and site inspections",
+          "lastUpdated": "2026-01-12",
+          "proofHistory": [
+            {
+              "timestamp": "2026-01-12",
+              "verifier": "Independent engineer",
+              "evidence": "Milestone completion certificate"
+            },
+            {
+              "timestamp": "2026-01-08",
+              "verifier": "Project auditor",
+              "evidence": "Site inspection report"
+            }
+          ]
+        }
+      },
+      {
+        "instrumentName": "SME Income ETF",
+        "instrumentType": "ETF",
+        "allocationPercent": 20,
+        "cashFlowSource": "Diversified SME income",
+        "proof": {
+          "verifiedBy": "Fund administrator",
+          "evidence": "Monthly disclosure of SME cash flows",
+          "lastUpdated": "2026-01-10",
+          "proofHistory": [
+            {
+              "timestamp": "2026-01-10",
+              "verifier": "Fund administrator",
+              "evidence": "Monthly disclosure pack"
+            },
+            {
+              "timestamp": "2026-01-05",
+              "verifier": "Supply-chain auditor",
+              "evidence": "Invoice settlement reconciliation"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "growth-impact",
+    "title": "Growth and Impact",
+    "summary": "Diversified into SME funds, municipal projects, and production units.",
+    "contribution": "ZMW 120 per week",
+    "horizon": "3 to 7 years",
+    "allocations": [
+      {
+        "instrumentName": "SME Growth ETF",
+        "instrumentType": "ETF",
+        "allocationPercent": 40,
+        "cashFlowSource": "Verified SME cash flows",
+        "proof": {
+          "verifiedBy": "Supply-chain auditor",
+          "evidence": "Invoice settlements and delivery confirmations",
+          "lastUpdated": "2026-01-08",
+          "proofHistory": [
+            {
+              "timestamp": "2026-01-08",
+              "verifier": "Supply-chain auditor",
+              "evidence": "Invoice settlement confirmation"
+            },
+            {
+              "timestamp": "2026-01-03",
+              "verifier": "Index provider",
+              "evidence": "Quarterly rebalance report"
+            }
+          ]
+        }
+      },
+      {
+        "instrumentName": "Harvest-Linked Agriculture Note",
+        "instrumentType": "Agriculture Note",
+        "allocationPercent": 30,
+        "cashFlowSource": "Harvest off-take settlements",
+        "proof": {
+          "verifiedBy": "Extension officer",
+          "evidence": "Geo-tagged harvest verification",
+          "lastUpdated": "2026-01-06",
+          "proofHistory": [
+            {
+              "timestamp": "2026-01-06",
+              "verifier": "Extension officer",
+              "evidence": "Geo-tagged harvest verification"
+            },
+            {
+              "timestamp": "2026-01-02",
+              "verifier": "Off-take buyer",
+              "evidence": "Settlement confirmation"
+            }
+          ]
+        }
+      },
+      {
+        "instrumentName": "Infrastructure Income Fund",
+        "instrumentType": "Infrastructure",
+        "allocationPercent": 30,
+        "cashFlowSource": "Availability payments",
+        "proof": {
+          "verifiedBy": "Independent engineer",
+          "evidence": "Milestone sign-off and payment confirmations",
+          "lastUpdated": "2026-01-05",
+          "proofHistory": [
+            {
+              "timestamp": "2026-01-05",
+              "verifier": "Independent engineer",
+              "evidence": "Milestone sign-off"
+            },
+            {
+              "timestamp": "2025-12-28",
+              "verifier": "Fund administrator",
+              "evidence": "Payment confirmation"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

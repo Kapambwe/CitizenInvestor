@@ -1,0 +1,29 @@
+[
+  {
+    "id": "fund-safe-cash",
+    "title": "Citizen Cash Reserve",
+    "category": "Money Market",
+    "summary": "Short-term government and bank instruments for stability.",
+    "horizon": "0 to 18 months",
+    "riskLabel": "Low",
+    "minContribution": "ZMW 20"
+  },
+  {
+    "id": "fund-income-infra",
+    "title": "Infrastructure Income Fund",
+    "category": "Infrastructure",
+    "summary": "Work-backed infrastructure units with verified availability payments.",
+    "horizon": "2 to 5 years",
+    "riskLabel": "Low to Medium",
+    "minContribution": "ZMW 50"
+  },
+  {
+    "id": "fund-sme-growth",
+    "title": "SME Growth Pool",
+    "category": "SME Fund",
+    "summary": "Diversified SME revenue-linked units with supply-chain verification.",
+    "horizon": "3 to 7 years",
+    "riskLabel": "Medium",
+    "minContribution": "ZMW 80"
+  }
+]

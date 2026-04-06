@@ -1,0 +1,44 @@
+[
+  {
+    "id": "instr-sme-etf",
+    "name": "SME Growth ETF",
+    "category": "ETF",
+    "description": "Public ETF backed by verified SME cash-flow data and supply-chain risk scoring.",
+    "suitability": "Long-term growth plans"
+  },
+  {
+    "id": "instr-municipal-bond",
+    "name": "Municipal Revenue Bond",
+    "category": "Bond",
+    "description": "Bond backed by ring-fenced service revenues such as water or transport fees.",
+    "suitability": "Income and stability"
+  },
+  {
+    "id": "instr-sme-revenue-bond",
+    "name": "SME Revenue-Backed Bond",
+    "category": "SME Bond",
+    "description": "Senior notes repaid from verified SME revenue streams.",
+    "suitability": "Steady income plans"
+  },
+  {
+    "id": "instr-agri-harvest-note",
+    "name": "Harvest-Linked Agriculture Note",
+    "category": "Agriculture Note",
+    "description": "Returns linked to verified harvest and off-take settlement data.",
+    "suitability": "Seasonal and impact plans"
+  },
+  {
+    "id": "instr-ppp-availability",
+    "name": "PPP Availability Payment Bond",
+    "category": "Infrastructure",
+    "description": "Work-backed PPP bonds released only after verified milestones.",
+    "suitability": "Infrastructure income plans"
+  },
+  {
+    "id": "instr-sme-income-etf",
+    "name": "SME Income ETF",
+    "category": "ETF",
+    "description": "Diversified pooled SME income with risk buffers and continuous disclosure.",
+    "suitability": "Balanced income and growth"
+  }
+]

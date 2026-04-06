@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NationBuildWebApp</title>
+    <base href="/" />
+    <link href="_framework/dotnet.124o5004lr.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-d7Dk8iUy90nl7tXhSeoUULMRv4zAq1AFXyVIA3t21Xk=" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="_content/Radzen.Blazor/css/default-base.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="NationBuildWebApp.styles.css" rel="stylesheet" />
+    <script type="importmap">{
+  "imports": {
+    "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.124o5004lr.js",
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.iizqdaooi1.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.peu2mfb29t.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/blazor.webassembly.66stpp682q.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
+    "./_framework/blazor.webassembly.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
+    "./_framework/dotnet.124o5004lr.js": "sha256-d7Dk8iUy90nl7tXhSeoUULMRv4zAq1AFXyVIA3t21Xk=",
+    "./_framework/dotnet.js": "sha256-d7Dk8iUy90nl7tXhSeoUULMRv4zAq1AFXyVIA3t21Xk=",
+    "./_framework/dotnet.native.iizqdaooi1.js": "sha256-trRPYs1LiZHo8Tdyibj7A6K+GtYuAFUS/OVVdYmyR5s=",
+    "./_framework/dotnet.native.js": "sha256-trRPYs1LiZHo8Tdyibj7A6K+GtYuAFUS/OVVdYmyR5s=",
+    "./_framework/dotnet.runtime.js": "sha256-cajUr4vA/MpLPWj3omULUOwEQw3i8CE2n8AmDheqWBM=",
+    "./_framework/dotnet.runtime.peu2mfb29t.js": "sha256-cajUr4vA/MpLPWj3omULUOwEQw3i8CE2n8AmDheqWBM="
+  }
+}</script>
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.66stpp682q.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+    <script>
+        window.focusTrap = (element) => {
+            if (!element || element.dataset.trapAttached) {
+                return;
+            }
+            element.dataset.trapAttached = "true";
+            const focusable = element.querySelectorAll(
+                'button, [href], input, select, textarea, [tabindex]:not([tabindex=\"-1\"])'
+            );
+            if (!focusable.length) {
+                return;
+            }
+            const first = focusable[0];
+            const last = focusable[focusable.length - 1];
+            first.focus();
+            element.addEventListener("keydown", (event) => {
+                if (event.key !== "Tab") {
+                    return;
+                }
+                if (event.shiftKey && document.activeElement === first) {
+                    event.preventDefault();
+                    last.focus();
+                } else if (!event.shiftKey && document.activeElement === last) {
+                    event.preventDefault();
+                    first.focus();
+                }
+            });
+        };
+    </script>
+</body>
+
+</html>
