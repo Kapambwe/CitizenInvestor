@@ -6,7 +6,11 @@
     "summary": "Backed by verified lane-kilometer completion units and availability payments.",
     "progressPercent": 78,
     "verification": "Independent engineer sign-off and GPS logs",
-    "cashFlowSource": "Availability payments"
+    "cashFlowSource": "Availability payments",
+    "district": "Lusaka",
+    "province": "Lusaka",
+    "physicalUnitType": "Meters of Road",
+    "unitCost": 250.0
   },
   {
     "id": "proj-solar-grid",
@@ -15,7 +19,11 @@
     "summary": "Returns linked to electricity delivered to the grid and confirmed by SCADA logs.",
     "progressPercent": 64,
     "verification": "Grid interconnection approval and SCADA data",
-    "cashFlowSource": "PPA payments"
+    "cashFlowSource": "PPA payments",
+    "district": "Kafue",
+    "province": "Lusaka",
+    "physicalUnitType": "Watts of Solar",
+    "unitCost": 15.0
   },
   {
     "id": "proj-water-access",
@@ -24,7 +32,11 @@
     "summary": "Cash flow from verified meters and household connection data.",
     "progressPercent": 52,
     "verification": "Lab-tested quality reports and meter readings",
-    "cashFlowSource": "Water tariffs"
+    "cashFlowSource": "Water tariffs",
+    "district": "Lusaka",
+    "province": "Lusaka",
+    "physicalUnitType": "Household Connections",
+    "unitCost": 1200.0
   },
   {
     "id": "proj-sme-output",
@@ -33,6 +45,10 @@
     "summary": "Invest in verified SME revenue streams across manufacturing and logistics.",
     "progressPercent": 87,
     "verification": "Invoice settlements and delivery confirmations",
-    "cashFlowSource": "Revenue-linked payouts"
+    "cashFlowSource": "Revenue-linked payouts",
+    "district": "Kitwe",
+    "province": "Copperbelt",
+    "physicalUnitType": "Production Units",
+    "unitCost": 50.0
   }
 ]
